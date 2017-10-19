@@ -12,14 +12,14 @@ The main idea is to create a custom class for `UITabBar` and override `func poin
 5. Add an image in your project and set it to the button created in the previous point.
 6. Pull outlet from the storyboard to `MainViewController` class and name it say `centerButton`.
 7. Add a method
-```fileprivate func setupCenterButton() {
-tabBar.addSubview(centerButton)
-centerButton.translatesAutoresizingMaskIntoConstraints = false
-centerButton.centerYAnchor.constraint(equalTo: tabBar.topAnchor).isActive = true
-centerButton.centerXAnchor.constraint(equalTo: tabBar.centerXAnchor).isActive = true
-
-let customTabbar = tabBar as! MainMenuTabbar
-customTabbar.centerButton = centerButton
+```
+fileprivate func setupCenterButton() {
+  tabBar.addSubview(centerButton)
+  centerButton.translatesAutoresizingMaskIntoConstraints = false
+  centerButton.centerYAnchor.constraint(equalTo: tabBar.topAnchor).isActive = true
+  centerButton.centerXAnchor.constraint(equalTo: tabBar.centerXAnchor).isActive = true
+  let customTabbar = tabBar as! MainMenuTabbar
+  customTabbar.centerButton = centerButton
 }
 ```
 8. Call the method created in the previous point in `viewDidLoad`.
@@ -29,13 +29,13 @@ customTabbar.centerButton = centerButton
 var centerButton: UIButton?
 
 override func point(inside point: CGPoint, with _: UIEvent?) -> Bool {
-if let centerButton = centerButton {
-if centerButton.frame.contains(point) {
-return true
-}
-}
+  if let centerButton = centerButton {
+    if centerButton.frame.contains(point) {
+      return true
+    }
+  }
 
-return self.bounds.contains(point)
+  return self.bounds.contains(point)
 }
 ```
 11. Enjoy, now you have tab bar with a custom button on the center of it. The button is completely tappable.
