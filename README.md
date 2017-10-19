@@ -1,4 +1,4 @@
-# Custom-Tabbar-Cetner-Button
+# Custom Tabbar Center Button
 
 ## Intention
 This is a simple project intended to show how to implement a task that iOS developers sometimes face with. This is a tabbar with a big custom button on it's center. A part of the button is out of tabbar view but it still handles touches thanks to a custom class `MainMenuTabbar`.
