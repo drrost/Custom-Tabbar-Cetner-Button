@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1103BAED1F98F564004E2529 /* MainMenuTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103BAEC1F98F564004E2529 /* MainMenuTabbar.swift */; };
 		1103BAEF1F98F5FB004E2529 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1103BAEE1F98F5FB004E2529 /* MainViewController.swift */; };
+		1103BAF21F98FE7A004E2529 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1103BAF11F98FE7A004E2529 /* README.md */; };
 		116F35771F93561D00955575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116F35761F93561D00955575 /* AppDelegate.swift */; };
 		116F357C1F93561D00955575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116F357A1F93561D00955575 /* Main.storyboard */; };
 		116F357E1F93561D00955575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116F357D1F93561D00955575 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		1103BAEC1F98F564004E2529 /* MainMenuTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTabbar.swift; sourceTree = "<group>"; };
 		1103BAEE1F98F5FB004E2529 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1103BAF11F98FE7A004E2529 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		116F35731F93561D00955575 /* BigCeterButtonTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigCeterButtonTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116F35761F93561D00955575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116F357B1F93561D00955575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		116F356A1F93561D00955575 = {
 			isa = PBXGroup;
 			children = (
+				1103BAF11F98FE7A004E2529 /* README.md */,
 				116F35751F93561D00955575 /* BigCeterButtonTabbar */,
 				116F35741F93561D00955575 /* Products */,
 			);
@@ -128,6 +131,7 @@
 			files = (
 				116F35811F93561D00955575 /* LaunchScreen.storyboard in Resources */,
 				116F357E1F93561D00955575 /* Assets.xcassets in Resources */,
+				1103BAF21F98FE7A004E2529 /* README.md in Resources */,
 				116F357C1F93561D00955575 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

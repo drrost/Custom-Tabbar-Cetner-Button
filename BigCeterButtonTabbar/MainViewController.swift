@@ -14,7 +14,6 @@ class MainViewController: UITabBarController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
     setupCenterButton()
   }
   
@@ -23,7 +22,6 @@ class MainViewController: UITabBarController {
     centerButton.translatesAutoresizingMaskIntoConstraints = false
     centerButton.centerYAnchor.constraint(equalTo: tabBar.topAnchor).isActive = true
     centerButton.centerXAnchor.constraint(equalTo: tabBar.centerXAnchor).isActive = true
-    
     let customTabbar = tabBar as! MainMenuTabbar
     customTabbar.centerButton = centerButton
   }
